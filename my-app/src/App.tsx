@@ -1,17 +1,17 @@
 import React from 'react';
+import Box from '@mui/material/Box';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a>
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box fontFamily={'Roboto'} height={"100dvh"} bgcolor={"#FFC5D9"}>
+      
+    </Box>
   );
 }
 
