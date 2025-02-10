@@ -5,7 +5,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { hkcouple } from './assets/index.ts';
-import { BottomNavigation, BottomNavigationAction, Container } from '@mui/material';
+import { BottomNavigation, BottomNavigationAction, Container, Fade, Grow } from '@mui/material';
 import { mainText } from '../src/constants/constants.ts';
 
 
@@ -17,7 +17,9 @@ const App = () => {
         <img src={hkcouple}/>
       </Box>
       <Container maxWidth={"sm"}>
+      <Fade in={true} {...( { timeout: 1500 })}>
         <Box>{mainText}</Box>
+      </Fade>
       </Container>
     </Box>
   );
