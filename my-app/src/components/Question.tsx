@@ -24,7 +24,7 @@ const Question = ({windowSize, action} : {windowSize : {width: number, height: n
                 </Box>
                 <img src={melo2} width={windowSize.width > 430 ? "30%" : "100%"} height="300px"/>
             </Box>
-            {windowSize.width <= 430 && <img src={separatorPink} width={windowSize.width > 430 ? "30%" : "100%"} height="300px" /> }
+            {windowSize.width <= 430 && <img src={separatorPink} width={windowSize.width > 430 ? "30%" : "100%"}/> }
             </Container>
         </Fade>
     );
