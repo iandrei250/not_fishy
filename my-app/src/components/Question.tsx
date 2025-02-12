@@ -14,9 +14,9 @@ const Question = ({windowSize, action} : {windowSize : {width: number, height: n
 
     return (
         <Fade in={true} {...( { timeout: 500 })}>
-            <Container >
+            <Container style={{ height: "100vh"}}>
             <Box display={"flex"} flexDirection={"column"} justifyContent={"center"} alignItems={"center"} position={"relative"}>
-                <Box fontSize={"32px"} marginBottom={"5rem"} fontFamily={"Dancing Script"}>Do you want to be my valentine?</Box>
+                <Box fontSize={"32px"} marginBottom={"5rem"} fontFamily={"Dancing Script"} style={{textShadow: " 0px 0.5px 0.2px black"}}>Do you want to be my valentine?</Box>
                 <Box display={"flex"} justifyContent={"space-between"} width={windowSize.width > 430 ? "20%" : "50%"}>
                     <Button variant="contained" color="primary" style={{width: `${size}px`, height: `${size}px`}} onClick={() => {setIsYes(true)}}>Yes</Button>
                     {isNo ? <img src={sad} width={"38px"} height="38px"/> 
