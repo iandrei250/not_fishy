@@ -29,7 +29,7 @@ const App = () => {
     setIsTimeForQuestion(!isTimeForQuestion);
   }
   return (
-    <Box  color={"white"} fontWeight={500} fontFamily={'Roboto'} height={"100dvh"} bgcolor={"#FFC5D9"}>
+    <Box  color={"white"} fontWeight={500} fontFamily={'Roboto'} height={"100vh"} bgcolor={"#FFC5D9"}>
         <Box display={"flex"} justifyContent={"space-between"} alignItems={"center"} marginBottom={"20px"}>
           <img src={hkcouple} width="20%" height="10%"/>
           {!isTimeForQuestion &&  <Fade in={true} {...( { timeout: 1500 })}><Box fontSize={windowDimensions.width >= 435 ? "52px" : "32px"} fontFamily={"Dancing Script"}>For you, my princess</Box></Fade>}
