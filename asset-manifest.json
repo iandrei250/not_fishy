@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/not_fishy/static/css/main.9f7f821c.css",
-    "main.js": "/not_fishy/static/js/main.1f59d08b.js",
+    "main.css": "/not_fishy/static/css/main.94db0b5d.css",
+    "main.js": "/not_fishy/static/js/main.6927bb53.js",
     "static/media/melo.png": "/not_fishy/static/media/melo.585bb318cf5a077a7104.png",
     "static/media/pngegg.png": "/not_fishy/static/media/pngegg.65a5eb4faec5b52c4577.png",
     "static/media/separator-flower.webp": "/not_fishy/static/media/separator-flower.d90a538d7e95ec3a3f6f.webp",
     "static/media/hello-kitty.png": "/not_fishy/static/media/hello-kitty.de20768d365e597fa78c.png",
+    "static/media/happyMelo.png": "/not_fishy/static/media/happyMelo.391897e335a79a8d1db9.png",
     "static/media/separatorpink.png": "/not_fishy/static/media/separatorpink.b63facad8c0b3577ddc4.png",
     "static/media/roboto-latin-700-normal.woff2": "/not_fishy/static/media/roboto-latin-700-normal.4535474e1cf8598695ad.woff2",
     "static/media/roboto-latin-500-normal.woff2": "/not_fishy/static/media/roboto-latin-500-normal.7077203b1982951ecf76.woff2",
@@ -64,11 +65,11 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/not_fishy/static/media/roboto-greek-ext-300-normal.b590dbe5c639944366d1.woff",
     "static/media/roboto-greek-ext-400-normal.woff": "/not_fishy/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/not_fishy/index.html",
-    "main.9f7f821c.css.map": "/not_fishy/static/css/main.9f7f821c.css.map",
-    "main.1f59d08b.js.map": "/not_fishy/static/js/main.1f59d08b.js.map"
+    "main.94db0b5d.css.map": "/not_fishy/static/css/main.94db0b5d.css.map",
+    "main.6927bb53.js.map": "/not_fishy/static/js/main.6927bb53.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f7f821c.css",
-    "static/js/main.1f59d08b.js"
+    "static/css/main.94db0b5d.css",
+    "static/js/main.6927bb53.js"
   ]
 }
