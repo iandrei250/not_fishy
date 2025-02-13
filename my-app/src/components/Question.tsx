@@ -1,5 +1,5 @@
 import { Box, Button, Container, Fade, Grow } from "@mui/material";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { happyMelo, melo2, sad, separatorPink } from "../assets/index.ts";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
@@ -11,6 +11,11 @@ const Question = ({windowSize, action} : {windowSize : {width: number, height: n
     const increaseSize = () => {
         setSize(size + 10);
     }
+
+    useEffect(() => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0; 
+    }, []);
 
     return (
         <Fade in={true} {...( { timeout: 500 })}>
